@@ -1,2 +1,4 @@
-# ClientSide
- Client side with HTML CSS JS
+# ClientSide Web Page
+   - [x] HTML
+   - [x] CSS
+   - [x] JavaScript
