@@ -62,7 +62,7 @@ function checkInputs() {
         fim.style.paddingTop = '20px'
 
         // Almost working (only show the first one)
-            // small = document.querySelectorAll('.form-control small');
+            // const small = document.querySelectorAll('.form-control small');
             // small.innerText = 'Accepted';
             // small.style.visibility = "visible";
             // small.style.color = "#2ecc71";
