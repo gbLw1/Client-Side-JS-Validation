@@ -49,17 +49,17 @@ function checkInputs() {
     }
 
     // show a success message //
-    const fim = document.getElementById('fim');
+    const end = document.getElementById('end');
 
     if((username.parentElement.className == 'form-control success') &&
     (email.parentElement.className == 'form-control success') &&
     (password.parentElement.className == 'form-control success') &&
     (password2.parentElement.className == 'form-control success')) {
         
-        fim.innerHTML = `Cadastro finalizado!`
-        fim.style.display = 'flex'
-        fim.style.justifyContent = 'center'
-        fim.style.paddingTop = '20px'
+        end.innerHTML = `Account Created!`
+        end.style.display = 'flex'
+        end.style.justifyContent = 'center'
+        end.style.paddingTop = '20px'
 
         // Almost working (only show the first one)
             // const small = document.querySelectorAll('.form-control small');
@@ -67,7 +67,7 @@ function checkInputs() {
             // small.style.visibility = "visible";
             // small.style.color = "#2ecc71";
     } else {
-        fim.style.display = 'none'
+        end.style.display = 'none'
     }
 }
 
